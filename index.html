@@ -38,6 +38,7 @@
                         'dark-2': '#494949',
                         'dark-3': '#737373',
                         'dark-4': '#1C1C1C',
+                        'dark-5': '#E9E9E9',
                         'dark-bc-1': 'rgba(30,30,30,0.075)',
                         'lime-1': 'rgb(171, 239, 95)',
                         'lime-2': 'rgba(171, 239, 95, 0.5)',
@@ -470,8 +471,43 @@
             </div>
         </section>
     </main>
-    <footer>
 
+    <!-- Footer Section -->
+    <footer class="bg-dark-4 text-white px-5 py-8 md:px-64 md:py-20">
+        <div class="grid grid-cols-1 text-center gap-6">
+
+            <!-- Footer Title -->
+            <div class="flex flex-col items-center gap-3">
+                <div class="flex flex-row items-center gap-2">
+                    <i class="fa-solid fa-arrow-right text-black bg-lime-1 rounded-full p-2 -rotate-45"></i>
+                    <a href="#" class="text-2xl font-extrabold">Rinterio</a>
+                </div>
+                <p class="text-sm md:text-base font-medium text-dark-3 max-w-full md:max-w-2xl">
+                    The barn house captivates with its blend of rustic charm and modern sophistication, featuring
+                    weathered wood, sleek metal accents.
+                </p>
+            </div>
+
+            <!-- Footer Items -->
+            <div class="w-full md:w-4/5 mx-auto pb-6 md:pb-12">
+                <ul class="flex flex-col items-center gap-3 md:flex-row md:justify-around md:gap-6 md:mt-12">
+                    <li class="text-dark-5 text-base font-medium"><a href="#">Home</a></li>
+                    <li class="text-dark-5 text-base font-medium"><a href="#">Services</a></li>
+                    <li class="text-dark-5 text-base font-medium"><a href="#">Portfolio</a></li>
+                    <li class="text-dark-5 text-base font-medium"><a href="#">Blogs</a></li>
+                    <li class="text-dark-5 text-base font-medium"><a href="#">Contact Us</a></li>
+                </ul>
+            </div>
+
+            <!-- Footer Button -->
+            <div class="flex justify-center">
+                <a
+                    class="btn bg-lime-1 rounded-[32px] text-dark-4 font-extrabold text-sm md:text-lg border-none px-4 py-2 w-full md:w-auto">
+                    Book Consult
+                    <i class="fa-solid fa-arrow-right text-white bg-dark-4 rounded-full p-2 -rotate-45"></i>
+                </a>
+            </div>
+        </div>
     </footer>
 </body>
 </html>
